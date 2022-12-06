@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  color: red;
+}
+
+.row {
+  flex: 33%;
+  width: 100%;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 33%;
+  border-right: 1px solid;
+  text-align: center;
+  padding: 10px;
+}
